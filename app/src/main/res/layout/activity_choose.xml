@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context="com.inc.cornect.Activity.ChooseActivity">
+
+    <Button
+        android:id="@+id/btnP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#000"
+        android:onClick="PersonalClick"
+        android:text="PERSONAL"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnP"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="#000"
+        android:onClick="CorporateClick"
+        android:text="CORPORATE"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+</RelativeLayout>
